@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Nice Birds</title>
+  <style>
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: 'Lobster', cursive;
+  } 
+
+ .header {
+    width: auto;
+    height: 70px;
+    font-size: 35px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #87c34b;
+    font-family: 'Lobster', cursive;
+}
+
+  .main {
+    width: auto;
+    height: 537px;
+  }
+
+  .footer {
+    width: auto;
+    height: 55px;
+    font-size: 27px;
+    color: white;
+    background-color: #87c34b;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .footer-frase {
+    width: 470px;
+    height: 55px;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    line-height: 2;
+    /*background-color: red;*/
+    position: absolute;
+    left: 34%;
+  }
+
+  .puzzle-image {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .table {
+    border-collapse: collapse;
+    position: absolute;
+    top: 83px;
+    left: 370px;
+  }
+
+  .puzzle {
+    width: 100px;
+    height: 100px;
+    border: 0px solid #607D8B;  
+    padding: 0;
+  }
+
+   </style>
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="header">Посади птичек на ветки!</div>
+    <div class="main"></div>
+      <table class="table">
+        <tr>
+          <td class="puzzle"><img src="./img/tree_01.png" class="puzzle-image bird-one" data-element-row-index="0" data-element-col-index="0"></td>
+          <td class="puzzle"><img src="./img/tree_02.png" class="puzzle-image bird-two" data-element-row-index="0" data-element-col-index="1"></td>
+          <td class="puzzle"><img src="./img/tree_03.png" class="puzzle-image" data-element-row-index="0" data-element-col-index="2"></td>
+          <td class="puzzle"><img src="./img/tree_04.png" class="puzzle-image" data-element-row-index="0" data-element-col-index="3"></td>
+          <td class="puzzle"><img src="./img/tree_05.png" class="puzzle-image" data-element-row-index="0" data-element-col-index="4"></td>
+          <td class="puzzle"><img src="./img/tree_06.png" class="puzzle-image" data-element-row-index="0" data-element-col-index="5"></td>
+        </tr>
+        <tr>
+          <td class="puzzle"><img src="./img/tree_07.png" class="puzzle-image" data-element-row-index="1" data-element-col-index="0"></td>
+          <td class="puzzle"><img src="./img/tree_08.png" class="puzzle-image" data-element-row-index="1" data-element-col-index="1"></td>
+          <td class="puzzle"><img src="./img/tree_09.png" class="puzzle-image" data-element-row-index="1" data-element-col-index="2"></td>
+          <td class="puzzle"><img src="./img/tree_10.png" class="puzzle-image" data-element-row-index="1" data-element-col-index="3"></td>
+          <td class="puzzle"><img src="./img/tree_11.png" class="puzzle-image bird-three" data-element-row-index="1" data-element-col-index="4"></td>
+          <td class="puzzle"><img src="./img/tree_12.png" class="puzzle-image" data-element-row-index="1" data-element-col-index="5"></td>
+        </tr>
+        <tr>
+          <td class="puzzle"><img src="./img/tree_13.png" class="puzzle-image" data-element-row-index="2" data-element-col-index="0"></td>
+          <td class="puzzle"><img src="./img/tree_14.png" class="puzzle-image" data-element-row-index="2" data-element-col-index="1"></td>
+          <td class="puzzle"><img src="./img/tree_15.png" class="puzzle-image" data-element-row-index="2" data-element-col-index="2"></td>
+          <td class="puzzle"><img src="./img/tree_16.png" class="puzzle-image" data-element-row-index="2" data-element-col-index="3"></td>
+          <td class="puzzle"><img src="./img/tree_17.png" class="puzzle-image" data-element-row-index="2" data-element-col-index="4"></td>
+          <td class="puzzle"><img src="./img/tree_18.png" class="puzzle-image bird-four" data-element-row-index="2" data-element-col-index="5"></td>
+        </tr>
+        <tr>
+          <td class="puzzle"><img src="./img/tree_19.png" class="puzzle-image" data-element-row-index="3" data-element-col-index="0"></td>
+          <td class="puzzle"><img src="./img/tree_20.png" class="puzzle-image" data-element-row-index="3" data-element-col-index="1"></td>
+          <td class="puzzle"><img src="./img/tree_21.png" class="puzzle-image" data-element-row-index="3" data-element-col-index="2"></td>
+          <td class="puzzle"><img src="./img/tree_22.png" class="puzzle-image bird-five" data-element-row-index="3" data-element-col-index="3"></td>
+          <td class="puzzle"><img src="./img/tree_23.png" class="puzzle-image bird-six" data-element-row-index="3" data-element-col-index="4"></td>
+          <td class="puzzle"><img src="./img/tree_24.png" class="puzzle-image" data-element-row-index="3" data-element-col-index="5"></td>
+        </tr>
+        <tr>
+          <td class="puzzle"><img src="./img/tree_25.png" class="puzzle-image" data-element-row-index="4" data-element-col-index="0"></td>
+          <td class="puzzle"><img src="./img/tree_26.png" class="puzzle-image" data-element-row-index="4" data-element-col-index="1"></td>
+          <td class="puzzle"><img src="./img/tree_27.png" class="puzzle-image" data-element-row-index="4" data-element-col-index="2"></td>
+          <td class="puzzle"><img src="./img/tree_28.png" class="puzzle-image" data-element-row-index="4" data-element-col-index="3"></td>
+          <td class="puzzle"><img src="./img/tree_29.png" class="puzzle-image" data-element-row-index="4" data-element-col-index="4"></td>
+          <td class="puzzle"><img src="./img/tree_30.png" class="puzzle-image" data-element-row-index="4" data-element-col-index="5"></td>
+        </tr>
+      </table>
+    <div class="footer"><div class="footer-frase"></div></div>
+  </body>
+  </html>
+
+  <script type="text/javascript">
+
+  var birdOne = document.querySelector(".bird-one");
+  var birdTwo = document.querySelector(".bird-two");
+  var birdThree = document.querySelector(".bird-three");
+  var birdFour = document.querySelector(".bird-four");
+  var birdFive = document.querySelector(".bird-five");
+  var birdSix = document.querySelector(".bird-six"); 
+
+  birdOne.onmouseover = onclickPuzzle;
+  function onclickPuzzle(event) {
+    event.currentTarget.src = "./img/birds_01.png";
+}
+
+birdTwo.onmouseover = onclickPuzzleTwo;
+  function onclickPuzzleTwo(event) {
+    event.currentTarget.src = "./img/birds_02.png";
+}
+
+birdThree.onmouseover = onclickPuzzleThree;
+  function onclickPuzzleThree(event) {
+    event.currentTarget.src = "./img/birds_03.png";
+}
+
+birdFour.onmouseover = onclickPuzzleFour;
+  function onclickPuzzleFour(event) {
+    event.currentTarget.src = "./img/birds_04.png";
+}
+
+birdFive.onmouseover = onclickPuzzleFive;
+  function onclickPuzzleFive(event) {
+    event.currentTarget.src = "./img/birds_05.png";
+}
+
+birdSix.onmouseover = onclickPuzzleSix;
+  function onclickPuzzleSix(event) {
+    event.currentTarget.src = "./img/birds_06.png";
+}
+
+  </script>
